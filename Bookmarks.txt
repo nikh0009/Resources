@@ -1,0 +1,4 @@
+https://discuss.codechef.com/questions/48877/data-structures-and-algorithms
+http://code-library.herokuapp.com/
+http://codeforces.com/blog/entry/23054#awesome-reference-materials
+https://discuss.codechef.com/questions/64426/awesome-resource-for-ds-and-algorithms
