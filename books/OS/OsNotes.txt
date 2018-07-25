@@ -1,0 +1,15 @@
+Program is a passive entity and process is a active entity.
+The central processor reads instructions from main memory during
+the instruction-fetch cycle and both reads and writes data from main memory
+during the data-fetch cycle (on a von Neumann architecture ).
+Memory-addressing hardware ensures that a process can execute only within its own address space.
+Computing environment..
+virtualization
+cloud-Cloud computing is a type of computing that delivers computing, storage, and even applications as a service across a network
+simulation
+
+/*Chapter 2*/
+Three views to view operating system
+1.The services it provides
+2.Interface that it makes available to the users and programmers.
+3.Various subsystems and its interconnection. 
