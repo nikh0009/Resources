@@ -12,4 +12,21 @@ simulation
 Three views to view operating system
 1.The services it provides
 2.Interface that it makes available to the users and programmers.
-3.Various subsystems and its interconnection. 
+3.Various subsystems and its interconnection.
+
+Operating-system services
+Operating system provides services to the execution of program and its users.
+
+System Calls:
+System calls provide an interface to the services made available by an operating
+system.
+System call interface that serves as the link to system calls made available by the
+operating system.
+Most of the details of the operating-system interface
+are hidden from the programmer by the API and are managed by the run-time
+support library
+
+Types of system call:
+System calls can be grouped roughly into six major categories: process
+control, file manipulation, device manipulation, information maintenance,
+communications, and protection

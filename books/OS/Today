@@ -1,7 +1,2 @@
-Three views to view operating system
-1.The services it provides
-2.Interface that it makes available to the users and programmers.
-3.Various subsystems and its interconnection.
-
-2.1 Operating-system services
-Operating system provides services to the execution of program and its users.
+Microkernel provides minimal process and memory management in addition to communication facility.
+Main function of the micro kernel is to provide communication facility to the client programs and services running in user space. 
