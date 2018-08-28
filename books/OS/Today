@@ -1,2 +1,1 @@
-Microkernel provides minimal process and memory management in addition to communication facility.
-Main function of the micro kernel is to provide communication facility to the client programs and services running in user space. 
+A socket is defined as an endpoint for communication.

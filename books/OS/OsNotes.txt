@@ -30,3 +30,57 @@ Types of system call:
 System calls can be grouped roughly into six major categories: process
 control, file manipulation, device manipulation, information maintenance,
 communications, and protection
+
+
+Microkernel provides minimal process and memory management in addition to communication facility.
+Main function of the micro kernel is to provide communication facility to the client programs and services running in user space.
+Types of architecture..
+Simple (monolithic)
+layered
+microkernel
+loadable modules
+hybrid.
+
+
+Chapter 3 Process:
+Each process is represented by OS as Process control block(PCB).
+PCB contains information like:
+Process state
+Program counter
+CPU register
+CPU scheduling mechanism
+Memory management information
+Accounting information
+I/O status information
+
+PCB serves as a repository that contains information that vary from process to process.
+
+Threads:
+In modern OS concept of process is extended and one process can perform multiple tasks at the same time ie, running multiple threads.
+Selection process of the processes residing in the queue is taken care by scheduler.
+Two types-
+long term scheduler (disk scheduler)- controls the degree of multi programing. Can take more time to decide.
+short term scheduler (CPU scheduler). Can't take more time to decide.
+Two types of process-
+I/O bound- spends most of the time doing I/O job rather computing.
+CPU bound- I/O calls infrequent, mostly computation.
+
+
+The new process consists of a copy of the address space of the original
+process.. This mechanism is for easy communication.
+Process creation:
+Unix - fork()
+Windows - CreateProcess()
+
+A process that has terminated, but whose parent has not yet called wait(), is
+known as a zombie process.
+
+One of the main purposes of wait() is to wait for completion of child processes.
+
+
+Any process that does not share data with any other process is independent.
+Two fundamental methods of message passing:
+shared memory
+message passing
+Once shared memory is established, all accesses are treated
+as routine memory accesses, and no assistance from the kernel is required.
