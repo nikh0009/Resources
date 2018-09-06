@@ -1,1 +1,6 @@
-A socket is defined as an endpoint for communication.
+Chapter 4 Threads:
+
+A thread is a basic unit of CPU utilization; it comprises a thread ID, a program
+counter, a register set, and a stack.
+A thread shares with other threads in same process the code and data section and
+other operating system resources. 

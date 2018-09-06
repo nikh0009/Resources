@@ -8,7 +8,7 @@ virtualization
 cloud-Cloud computing is a type of computing that delivers computing, storage, and even applications as a service across a network
 simulation
 
-/*Chapter 2*/
+Chapter 2
 Three views to view operating system
 1.The services it provides
 2.Interface that it makes available to the users and programmers.
@@ -84,3 +84,5 @@ shared memory
 message passing
 Once shared memory is established, all accesses are treated
 as routine memory accesses, and no assistance from the kernel is required.
+
+A socket is defined as an endpoint for communication.
