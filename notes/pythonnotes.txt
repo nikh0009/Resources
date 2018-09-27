@@ -1,0 +1,10 @@
+prompting - nothing special about it,just output '>' in console. input('>')
+
+/New syntax/
+from sys import argv
+
+/Reading and writing files
+read file
+write file
+open(),read(),write(),truncate(),close()
+os.path- new item to look at

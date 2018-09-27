@@ -1,0 +1,7 @@
+Three families
+Debian-(ubuntu)
+  -uses DKPG based apt package manager
+Suse
+  -uses rpm based zypper package manager
+Fedora-(RHEL, CentOS, Oracle linux)
+    -uses rpm based yum package manager
