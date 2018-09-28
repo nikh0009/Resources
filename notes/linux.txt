@@ -5,3 +5,44 @@ Suse
   -uses rpm based zypper package manager
 Fedora-(RHEL, CentOS, Oracle linux)
     -uses rpm based yum package manager
+
+
+Boot process
+BIOS first step after power on.
+performs power on self test.(POST).installed on ROM chip.
+OS takes charge after this
+
+After BIOS control passes to boot loader, stored in MBR or UEFI
+boot sector for BIOS/MBR
+EFI partition for UEFI
+Boot loader in turn loads the kernel and initial RAM disk.
+
+Two stages of boot loader:
+
+
+1st stage
+
+BIOS/MBR- system locates the boot loader from first sector of hard disk know as MBR.
+          In this stage boot loader searches for the partition table and locates the bootable partition.
+          Once done, the searches for the 2nd stage boot loader (GRUB) and loads into RAM.
+EFI/UEFI- UEFI firmware reads its boot manager data to determine which UEFI application has to be launched and from where..
+          The firmware the launches the UEFI application (GRUB).
+
+
+
+2nd stage:
+
+second stage boot loader is under /boot. Present a splash screen to select the OS.
+After the OS is selected, it loads the kernel into the memory.
+
+initramfs-
+
+initramfs contains programs and binaries that perform action needed to mount proper root filsystem.
+udev figures out which devices are present in system, locating their drivers and loading them.
+
+If everything goes fine.. initramfs is removed and init(/sbin/init) process is executed.
+init mounts and pivots the real root filesystem.
+
+
+Takeaway from boot loader section:
+boot loader loads the kernel and initial RAM file system
